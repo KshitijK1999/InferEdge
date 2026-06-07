@@ -6,8 +6,7 @@ Daily equity long/short strategy built from news-flow data.
 
 | File | Description |
 |---|---|
-| `news_ls_strategy.py` | Main pipeline — runs top-to-bottom, no hidden state |
-| `InferEdge2.ipynb` | Interactive notebook mirroring the script |
+| `InferEdge2.ipynb` | Interactive notebook — full pipeline from data load to results |
 | `NEWS_SIGNAL_STRATEGY_WRITEUP.md` | Full writeup: construction, alternatives, results, caveats |
 | `output/` | Generated results (diagnostics plot, daily CSV, summary JSON) |
 
@@ -15,8 +14,8 @@ Daily equity long/short strategy built from news-flow data.
 
 ```bash
 # 1. Place news_chunks.csv and prices.csv in a take_home_data/ folder
-# 2. Update NEWS_PATH / PRICES_PATH in news_ls_strategy.py if needed
-python3 news_ls_strategy.py
+# 2. Open and run InferEdge2.ipynb
+jupyter notebook InferEdge2.ipynb
 ```
 
 ## Approach summary
