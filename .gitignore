@@ -1,6 +1,3 @@
-# Data files (not included — update NEWS_PATH / PRICES_PATH in news_ls_strategy.py)
-take_home_data/
-
 # Python
 __pycache__/
 *.pyc
